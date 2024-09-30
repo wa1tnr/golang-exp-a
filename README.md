@@ -1,8 +1,1 @@
-## golang
-### tutorial
-
-#### hello.go and Makefile
-
-#### Mon 30 Sep 18:33:20 UTC 2024
-
-#### end.
+Mon Sep 30 06:37:37 PM UTC 2024
