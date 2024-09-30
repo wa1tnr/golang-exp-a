@@ -5,20 +5,25 @@ build:	hello.go
 
 # go build -race
 
+# @echo '    ' go run - only source files remain\; nothing compiled remains
 run:	hello.go
-	@echo '    ' go run - only source files remain\; nothing compiled remains
 	go run .
+
+# test is a synonym for 'run' in this Makefile
+test:	run
 
 clean:
 	@rm -rf ./hello
 
-hello:	build
+distclean:	clean
 
-# fark: build + exec <from a file>
-fark:	hello
+# exec is at OS shell level
+exec:	build
 	@./hello 
 
-exec:	fark
+# no reason or motive to 'install' this program anywhere anytime for any reason - established. ;)
+install:
+	@echo '    ' nothing to do - no interest in \'installing\' this program.
 
 # errors:
 # https://www.gnu.org/software/make/manual/html_node/Errors.html
