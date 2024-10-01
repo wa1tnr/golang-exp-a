@@ -1,7 +1,12 @@
-# Mon 30 Sep 18:15:32 UTC 2024
+# Tue  1 Oct 12:40:17 UTC 2024
+# was:
+#   Mon 30 Sep 18:15:32 UTC 2024
 
 build:	hello.go
 	go build
+
+initONLYONCE:
+	@go mod init example/runes
 
 # go build -race
 
