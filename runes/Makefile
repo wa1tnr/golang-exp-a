@@ -2,7 +2,7 @@
 # was:
 #   Mon 30 Sep 18:15:32 UTC 2024
 
-build:	hello.go
+build:	runes.go
 	go build
 
 initONLYONCE:
@@ -11,20 +11,20 @@ initONLYONCE:
 # go build -race
 
 # @echo '    ' go run - only source files remain\; nothing compiled remains
-run:	hello.go
+run:	runes.go
 	go run .
 
 # test is a synonym for 'run' in this Makefile
 test:	run
 
 clean:
-	@rm -rf ./hello
+	@rm -rf ./runes
 
 distclean:	clean
 
 # exec is at OS shell level
 exec:	build
-	@./hello 
+	@./runes
 
 # no reason or motive to 'install' this program anywhere anytime for any reason - established. ;)
 install:
