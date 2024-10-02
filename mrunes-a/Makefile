@@ -1,8 +1,9 @@
-# Tue  1 Oct 12:40:17 UTC 2024
+# Wed  2 Oct 12:19:21 UTC 2024
 # was:
+#   Tue  1 Oct 12:40:17 UTC 2024
 #   Mon 30 Sep 18:15:32 UTC 2024
 
-build:	runes.go
+build:	runes.go extra.go
 	go build
 
 initONLYONCE:
@@ -10,8 +11,11 @@ initONLYONCE:
 
 # go build -race
 
+tidy:
+	@go mod tidy
+
 # @echo '    ' go run - only source files remain\; nothing compiled remains
-run:	runes.go
+run:	runes.go extra.go
 	go run .
 
 # test is a synonym for 'run' in this Makefile
