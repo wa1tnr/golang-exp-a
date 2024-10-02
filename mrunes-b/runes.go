@@ -21,7 +21,11 @@ func main() {
 	var r6 rune = '\n'
 	var r7 rune = '\u0041'
 
-	fmt.Printf("\n  runes.go:\n    %c\n    %c\n%c%c       (newline)%c%c    %c\n", r1, r2, r3, r4, r5, r6, r7)
+	fmt.Printf(
+		"\n  runes.go:\n    %c\n    %c\n%c%c       (newline)%c%c    %c\n",
+		r1, r2, r3, r4, r5, r6, r7,
+	)
+
 	fmt.Println("       .. and now, call this() in sequence:\n")
 	this()
 }
