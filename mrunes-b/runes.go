@@ -15,15 +15,13 @@ import "fmt"
 func main() {
 	var r1 rune = 'a'
 	var r2 rune = 'π'
-	var r3 rune = '\u0010' /* h 8 i 9 j 10 */
-	var r4 rune = '\u0008' /* h 8 */
-	var r5 rune = '\r'
-	var r6 rune = '\n'
-	var r7 rune = '\u0041'
+	var r3 rune = '\r'
+	var r4 rune = '\n'
+	var r5 rune = '\u0041'
 
 	fmt.Printf(
-		"\n  runes.go:\n    %c\n    %c\n%c%c       (newline)%c%c    %c\n",
-		r1, r2, r3, r4, r5, r6, r7,
+		"\n  runes.go:\n    %c\n    %c\n       (newline)%c%c    %c\n",
+		r1, r2, r3, r4, r5,
 	)
 
 	fmt.Println("       .. and now, call this() in sequence:\n")
