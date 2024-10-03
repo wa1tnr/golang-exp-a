@@ -1,13 +1,15 @@
 /* extra.go */
-/* Wed  2 Oct 12:19:21 UTC 2024 */
+/* Thu  3 Oct 12:38:28 UTC 2024 */
 /* was: */
+/*   Thu  3 Oct 12:17:18 UTC 2024 */
+/*   Wed  2 Oct 12:19:21 UTC 2024 */
 /*   Tue  1 Oct 13:14:22 UTC 2024 */
 
 package main
 
 import "fmt"
 
-func this() {
+func thisPrintSample() {
 	var r1 rune = 'b'
 	var r2 rune = 'π'
 	var r3 rune = '\n'
