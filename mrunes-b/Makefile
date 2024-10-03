@@ -4,6 +4,7 @@
 #   Mon 30 Sep 18:15:32 UTC 2024
 
 build:	runes.go extra.go
+	@echo make build ran
 	go build
 
 initONLYONCE:
@@ -12,6 +13,7 @@ initONLYONCE:
 # go build -race
 
 tidy:
+	@echo make tidy ran
 	@go mod tidy
 
 # @echo '    ' go run - only source files remain\; nothing compiled remains
@@ -21,7 +23,8 @@ run:	runes.go extra.go
 # test is a synonym for 'run' in this Makefile
 test:	run
 
-clean:
+# note: should tidy be called earlier or later than clean
+clean:	tidy
 	@rm -rf ./runes
 
 distclean:	clean
