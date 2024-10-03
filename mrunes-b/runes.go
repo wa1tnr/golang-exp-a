@@ -22,7 +22,8 @@ func main() {
 	fmt.Printf("%c\n    ", r1)
 	fmt.Printf("%c\n       ", r2)
 	fmt.Printf("(newline)%c    ", r3)
-	fmt.Printf("%c\n", r4)
+	fmt.Printf("%c", r4)
+	newline()
 
 	fmt.Println("       .. and now, call this() in sequence:\n")
 	thisPrintSample()
