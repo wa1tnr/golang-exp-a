@@ -12,4 +12,8 @@ func newline() {
 	fmt.Printf("%c", r1,)
 }
 
+func indent() {
+        fmt.Printf("    ")
+}
+
 /* end. */
