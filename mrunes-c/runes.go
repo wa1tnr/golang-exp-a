@@ -24,6 +24,32 @@ func main() {
 	fmt.Printf("(newline)%c    ", r3)
 	fmt.Printf("%c", r4)
 	newline()
+	fmt.Println("       - - - - -   f e n c e   - - - - -")
+
+//    fmt.Printf("\n  runes.go:\n    ")
+	fmt.Printf("  runes.go:")
+	newline()
+        fmt.Printf("    ")
+
+//      fmt.Printf("%c\n    ", r1)
+	fmt.Printf("%c", r1)
+        newline()
+        fmt.Printf("    ")
+
+//      fmt.Printf("%c\n       ", r2)
+        fmt.Printf("%c", r2)
+        newline()
+	fmt.Printf("       ")
+
+
+//      fmt.Printf("(newline)%c    ", r3)
+	fmt.Printf("(newline)")
+	fmt.Printf("%c", r3)
+	fmt.Printf("    ")
+
+//      fmt.Printf("%c", r4)
+	fmt.Printf("%c", r4)
+	newline()
 
 	fmt.Println("       .. and now, call this() in sequence:\n")
 	thisPrintSample()
