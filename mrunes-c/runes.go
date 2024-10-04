@@ -29,19 +29,20 @@ func main() {
 
 	fmt.Printf("  runes.go:")
 	newline()
-        fmt.Printf("    ")
+	indent()
 
 	fmt.Printf("%c", r1)
-        newline()
-        fmt.Printf("    ")
+	newline()
+	indent()
 
-        fmt.Printf("%c", r2)
-        newline()
-	fmt.Printf("       ")
+	fmt.Printf("%c", r2)
+	newline()
+	indent()
+	fmt.Printf("   ")
 
 	fmt.Printf("(newline)")
 	fmt.Printf("%c", r3)
-	fmt.Printf("    ")
+	indent()
 
 	fmt.Printf("%c", r4)
 	newline()
