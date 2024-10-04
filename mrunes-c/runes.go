@@ -1,11 +1,12 @@
 /* runes.go */
-/* Thu  3 Oct 12:03:40 UTC 2024 */
+/* Fri  4 Oct 15:41:35 UTC 2024 */
 /* was: */
+/*   Thu  3 Oct 12:03:40 UTC 2024 */
 /*   Wed  2 Oct 13:20:35 UTC 2024 */
 /*   Tue  1 Oct 13:14:22 UTC 2024 */
 /* src: google 'go rune literal' with uncredited 'AI Overview' */
 
-/* golang/mrunes-b */
+/* golang/mrunes-c */
 /* variant: fancy printing */
 
 package main
@@ -26,28 +27,22 @@ func main() {
 	newline()
 	fmt.Println("       - - - - -   f e n c e   - - - - -")
 
-//    fmt.Printf("\n  runes.go:\n    ")
 	fmt.Printf("  runes.go:")
 	newline()
         fmt.Printf("    ")
 
-//      fmt.Printf("%c\n    ", r1)
 	fmt.Printf("%c", r1)
         newline()
         fmt.Printf("    ")
 
-//      fmt.Printf("%c\n       ", r2)
         fmt.Printf("%c", r2)
         newline()
 	fmt.Printf("       ")
 
-
-//      fmt.Printf("(newline)%c    ", r3)
 	fmt.Printf("(newline)")
 	fmt.Printf("%c", r3)
 	fmt.Printf("    ")
 
-//      fmt.Printf("%c", r4)
 	fmt.Printf("%c", r4)
 	newline()
 
