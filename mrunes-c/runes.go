@@ -25,26 +25,7 @@ func main() {
 	fmt.Printf("(newline)%c    ", r3)
 	fmt.Printf("%c", r4)
 	newline()
-	fmt.Println("       - - - - -   f e n c e   - - - - -")
-
-	fmt.Printf("  runes.go:")
-	newline()
-	indent()
-
-	fmt.Printf("%c", r1)
-	newline()
-	indent()
-
-	fmt.Printf("%c", r2)
-	newline()
-	indent()
-	fmt.Printf("   ")
-
-	fmt.Printf("(newline)")
-	fmt.Printf("%c", r3)
-	indent()
-
-	fmt.Printf("%c", r4)
+	// fmt.Println("       - - - - -   f e n c e   - - - - -")
 	newline()
 
 	fmt.Println("       .. and now, call this() in sequence:\n")

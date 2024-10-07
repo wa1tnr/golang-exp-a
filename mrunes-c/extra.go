@@ -16,6 +16,7 @@ func thisPrintSample() {
 	var r4 rune = '\u0046'
 
 	fmt.Printf("extra.go: %c%c%c%c\n", r1, r2, r3, r4)
+	newline()
 }
 
 /* end. */
