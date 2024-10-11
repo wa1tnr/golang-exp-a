@@ -13,7 +13,7 @@ package main
 
 import "fmt"
 
-func main() {
+func mainxrescinded() {
 	var r1 rune = 'a'
 	var r2 rune = 'π'
 	var r3 rune = '\n'
