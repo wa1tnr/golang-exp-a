@@ -57,4 +57,7 @@ PAGER=/usr/bin/less
 godocc:
 	go doc builtin | ${PAGER}
 
+mangodoc:
+	lynx https://manpages.debian.org/bookworm/golang-golang-x-tools/godoc.1.en.html
+
 # end.
