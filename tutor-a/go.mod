@@ -1,3 +1,3 @@
-module example/runes
+module example/chain
 
 go 1.19
