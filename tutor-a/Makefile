@@ -43,4 +43,8 @@ install:
 # cruft:
 # @echo '    ' use \'make build\' not \'make run\'
 
+# doco - see https://pandoc.org/demos.html  for proper use syntax ;)
+doco:	notes.md
+	pandoc -s notes.md 2>/dev/null | lynx -stdin
+
 # end.
