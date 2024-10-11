@@ -47,4 +47,14 @@ install:
 doco:	notes.md
 	pandoc -s notes.md 2>/dev/null | lynx -stdin
 
+# given as: 'godoc builtin'  in Miek Gieben's book
+# today in debian:
+# prerequisite:  'apt install golang-golang-x-tools'
+
+# found $PAGER undefined!
+
+PAGER=/usr/bin/less
+godocc:
+	go doc builtin | ${PAGER}
+
 # end.
